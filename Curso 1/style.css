@@ -1,0 +1,16 @@
+.bob {
+  width: 200px;
+  border-radius: 30px;
+  border: solid 1px black;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+#hola {
+  color: red;
+  font-size: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

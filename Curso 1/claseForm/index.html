@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="name">
+        <span>¿Cuál es tu nombre?</span>
+        <input type="text" id="name" placeholder="Escribe aquí tu nombre" />
+      </label>
+      <label for="lastname">
+        <span>¿Cuál es tu apellido?</span>
+        <input type="text" id="lastname" placeholder="Escribe aquí tu apellido" />
+      </label>
+      <label for="age">
+        <span>¿Cuál es tu edad?</span>
+        <input type="number" id="age" min="10" max="70" />
+      </label>
+      <label for="start-date">
+        <span>¿Cuándo iniciaste el curso?</span>
+        <input type="date" id="start-date" />
+      </label>
+      <label for="start-time">
+        <span>¿Cuál es el horario de la clase ?</span>
+        <input type="time" id="start-time" />
+      </label>
+      <label for="course">
+          <span>¿Cómo te enteraste del curso?</span>
+          <select id="course">
+            <option value="none" selected disabled></option>
+            <option value="instagram">Instagram</option>
+            <option value="facebook">Facebook</option>
+            <option value="whatsapp">Whatsapp</option>
+            <option value="other">Otro</option>
+          </select>
+      </label>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
